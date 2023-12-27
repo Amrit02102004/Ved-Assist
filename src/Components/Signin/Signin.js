@@ -46,7 +46,7 @@ function Signin() {
                     <form action="#">
                         <div className="nav">
                             <div className="logo">
-                                <a href="/"><img src={Logo} /></a>
+                                <a href="/"><img src={Logo} alt = "Logo" /></a>
                             </div>
                             <div className="footer_middle_left_list">
                                 <div className="footer_icons">
@@ -66,7 +66,7 @@ function Signin() {
                         <h1 class="main-heading">Sign In</h1>
                         <input type="text" placeholder="Username" id="username" required/>
                         <input type="password" placeholder="Password" id="password" required/>
-                        <a href="#" class="forgot">Forgot your password?</a>
+                        <a href="/signup" class="forgot">Forgot your password?</a>
                         <button type="submit" onClick={handleSubmit}>Sign In</button>
                         <span>Don't have an account? <a href="/signup">Create now</a></span>
                     </form>

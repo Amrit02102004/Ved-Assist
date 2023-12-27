@@ -52,7 +52,7 @@ function Signup() {
                     <form action="#">
                         <div className="nav">
                             <div className="logo">
-                                <a href="/"><img src={Logo} /></a>
+                                <a href="/"><img src={Logo} alt = "Logo"/></a>
                             </div>
                             <div className="footer_middle_left_list">
                                 <div className="footer_icons">
